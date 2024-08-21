@@ -4,7 +4,7 @@ import Hero from '../Components/HomePage/Hero';
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col min-h-screenz w-full overflow-x-hidden">
+    <div className="flex flex-col min-h-screenz w-full overflow-x-hidden bg-Back bg-cover bg-center h-screen">
       <Header />
       <Hero />
       <div className="flex-grow"></div>
