@@ -9,7 +9,7 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="font-eduVic">Atilla K.</button>
+          <button className="font-eduVic">Atilla K. CV</button>
         </a>
       </section>
       <section className="flex flex-row justify-between gap-8">
