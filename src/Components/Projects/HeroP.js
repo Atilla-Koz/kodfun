@@ -2,6 +2,7 @@ import ecom from '../../assets/ecom.png';
 import pizza from '../../assets/pizza.png';
 import port from '../../assets/port.png';
 import val from '../../assets/val.png';
+import vam from '../../assets/vam.png';
 
 export default function HeroP() {
   return (
@@ -54,7 +55,21 @@ export default function HeroP() {
           />
         </section>
       </a>
-
+      <a
+        href="https://vampire-and-villagers.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-3/4"
+      >
+        <section className="flex flex-col items-center gap-4">
+          <h4 className="text-2xl font-semibold">Vampire And Villagers</h4>
+          <img
+            src={vam}
+            alt="Vampire And Villagers"
+            className="w-full h-auto rounded-lg shadow-lg"
+          />
+        </section>
+      </a>
       <a
         href="https://my-valentine-nu.vercel.app/"
         target="_blank"
