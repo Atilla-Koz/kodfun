@@ -7,6 +7,9 @@ export default function Header() {
         <button className="font-eduVic">Atilla K.</button>
       </section>
       <section className="flex flex-row justify-between gap-8">
+        <button className="font-eduVic">
+          <Link to="/">Home</Link>
+        </button>
         <a
           href="https://atillakoz.netlify.app/"
           target="_blank"
