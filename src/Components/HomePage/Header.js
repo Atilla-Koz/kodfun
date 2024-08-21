@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+
 export default function Header() {
   return (
     <div className="flex flex-row justify-between gap-8 p-8 bg-black text-white ">
@@ -12,7 +14,9 @@ export default function Header() {
         >
           <button className="font-eduVic">About</button>
         </a>
-        <button className="font-eduVic">Projects</button>
+        <button className="font-eduVic">
+          <Link to="/Projects">Projects</Link>
+        </button>
       </section>
     </div>
   );

@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import HomePage from './Layout/HomePage';
+import About from './Layout/Projects';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route path="/Projects">
+          <About />
         </Route>
       </Switch>
     </div>
