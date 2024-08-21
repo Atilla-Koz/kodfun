@@ -1,8 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import HomePage from './Layout/HomePage';
 
 function App() {
-  return <div className="bg-black"></div>;
+  return (
+    <div className="">
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
