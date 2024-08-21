@@ -1,3 +1,4 @@
+import Footer from '../Components/HomePage/Footer';
 import Header from '../Components/HomePage/Header';
 import HeroP from '../Components/Projects/HeroP';
 
@@ -7,6 +8,7 @@ export default function Projects() {
       <Header />
       <div className="">
         <HeroP />
+        <Footer />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex flex-row justify-between gap-8 p-8 bg-black text-white w-full absolute bottom-0">
+    <div className="flex flex-row justify-between gap-8 p-8 bg-black text-white w-full">
       <a
         href="https://github.com/Atilla-Koz"
         target="_blank"
