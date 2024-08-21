@@ -4,7 +4,13 @@ export default function Header() {
   return (
     <div className="flex flex-row justify-between gap-8 p-8 bg-black text-white ">
       <section>
-        <button className="font-eduVic">Atilla K.</button>
+        <a
+          href="https://docs.google.com/document/d/1AOdGKgLxDlR3bpVKO4yO4SaCUEaHVF9ix4kqB6e2t88/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="font-eduVic">Atilla K.</button>
+        </a>
       </section>
       <section className="flex flex-row justify-between gap-8">
         <Link to="/">
